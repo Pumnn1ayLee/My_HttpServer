@@ -2,10 +2,6 @@
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://shields.io/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/yourrepository)](https://github.com/yourusername/yourrepository/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/yourrepository)](https://github.com/yourusername/yourrepository/network)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/yourrepository)](https://github.com/yourusername/yourrepository/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/yourrepository)](https://github.com/yourusername/yourrepository/graphs/contributors)
 
 This is a simple HTTP server written in C using the Windows Sockets API (Winsock). It demonstrates basic networking concepts such as socket creation, binding, listening, and accepting connections.
 
@@ -16,6 +12,15 @@ This is a simple HTTP server written in C using the Windows Sockets API (Winsock
 - Supports multiple MIME types
 - Returns 404 Not Found for missing resources
 - Multithreaded to handle multiple clients
+
+## Want to Finish
+
+- [ ] Server performance optimization
+- [ ] TLS encryption
+- [ ] Security Certificates
+- [ ] Document processing
+- [ ] ......
+
 
 ## Getting Started
 
@@ -29,7 +34,7 @@ This is a simple HTTP server written in C using the Windows Sockets API (Winsock
 To compile the program, use a C compiler like `gcc` or `cl`.
 
 ```bash
-gcc -o http_server http_server.c -lws2_32
+gcc -o http_server myhttp.c -lws2_32
 
 ### Running the Server
 
