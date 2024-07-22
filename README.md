@@ -35,10 +35,12 @@ To compile the program, use a C compiler like `gcc` or `cl`.
 
 ```bash
 gcc -o http_server myhttp.c -lws2_32
+```
 
 ### Running the Server
 
 After compiling, you can run the server with the following command:
+
 
 ```bash
 http_server
